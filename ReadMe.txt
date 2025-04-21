@@ -21,7 +21,7 @@ NEUFLIX is a Netflix-inspired movie recommendation web app built using **React (
 ## 🖼 Screenshots
 
 ### 🔐 Login Page
-![Login](screenshots/Picture1.png)
+![Login](https://raw.githubusercontent.com/akash-bahri/neuflix/main/screenshots/Picture1.png)
 
 ### 🏠 Home Page
 ![Home](screenshots/Picture2.png)
