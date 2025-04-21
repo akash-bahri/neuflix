@@ -1,27 +1,72 @@
-# P4 Project
+# 🎬 NEUFLIX – Movie Recommendation System
 
-This project contains the source code and necessary files. The zipped version of this project (`P4.zip`) excludes certain files and folders to reduce size and avoid redundancy. Below are the details and setup instructions.
+NEUFLIX is a Netflix-inspired movie recommendation web app built using **React (frontend)** and **Flask (backend)**. It combines multiple recommendation algorithms including collaborative filtering and graph-based hybrid techniques to deliver personalized suggestions.
 
-## Excluded Files/Folders
-The following items are intentionally omitted from the zip file to keep it lightweight:
-- **`node_modules/`**: 
-- **`.pkl` files**: 
+---
 
-## Setup Instructions
-To run this project, follow these steps after unzipping `P4.zip`:
+## 🚀 Features
 
+- 🔐 **Simple Login** – just enter your User ID to get started
+- 🏠 **Netflix-style Home Page** – rotating spotlight banner + genre rows
+- 🎯 **Multiple Recommendation Algorithms**
+  - Item-Item Collaborative Filtering
+  - Cluster-based Graph Hybrid Recommender (GHRS)
+  - Popularity-based, Random, and Content-based options
+- ⭐ **Rate Movies** – and get smarter recs
+- 🎥 **Movie Modals** – hover to view poster, rating, and IMDb link
+- 📝 **My List** – see everything you’ve rated
 
-### Steps
-1. **Unzip the Project**
-   - Extract `P4.zip` to a folder of your choice.
+---
 
-2. **Generate `.pkl` Files**
-   - Open the model file in Jupyter Notebook (`movie_rec_sys.ipynb`).
-   - Run all cells in the notebook to train the model and export the `.pkl` files.
-   - The `.pkl` files will be saved in `models/` folder or current directory
+## 🖼 Screenshots
 
-3. **Install Node.js Dependencies**
-   - Open a terminal and navigate to the project folder (e.g., `cd path\to\P4`).
-   - Run the following command to install the required Node.js dependencies:
-     ```bash
-     npm install
+### 🔐 Login Page
+![Login](root/screenshots/Picture1.png)
+
+### 🏠 Home Page
+![Home](root/screenshots/Picture2.png)
+
+### 🎯 Recommendation Results
+![Recommendations](root/screenshots/Picture3.png)
+
+### 📂 Genre Listings
+![Genres](root/screenshots/Picture4.png)
+
+### 🎬 Movie Hover Modal
+![Modal](root/screenshots/Picture5.png)
+
+### 🌟 Rating a Movie
+![Rating](root/screenshots/Picture6.png)
+
+### 📑 My List
+![My List](root/screenshots/Picture7.png)
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React + Vite
+- MUI (Material UI)
+- Axios
+
+**Backend:**
+- Flask
+- Pandas, NumPy
+- TensorFlow / Keras (for GHRS)
+- Scikit-learn
+- TMDB API for movie metadata
+
+**Data:**
+- MovieLens Dataset
+
+---
+
+## 🧪 Run the App Locally
+
+### 1. Frontend
+
+```bash
+cd Application
+npm install
+npm start
