@@ -21,25 +21,25 @@ NEUFLIX is a Netflix-inspired movie recommendation web app built using **React (
 ## 🖼 Screenshots
 
 ### 🔐 Login Page
-![Login](root/screenshots/Picture1.png)
+![Login](/screenshots/Picture1.png)
 
 ### 🏠 Home Page
-![Home](root/screenshots/Picture2.png)
+![Home](/screenshots/Picture2.png)
 
 ### 🎯 Recommendation Results
-![Recommendations](root/screenshots/Picture3.png)
+![Recommendations](/screenshots/Picture3.png)
 
 ### 📂 Genre Listings
-![Genres](root/screenshots/Picture4.png)
+![Genres](/screenshots/Picture4.png)
 
 ### 🎬 Movie Hover Modal
-![Modal](root/screenshots/Picture5.png)
+![Modal](/screenshots/Picture5.png)
 
 ### 🌟 Rating a Movie
-![Rating](root/screenshots/Picture6.png)
+![Rating](/screenshots/Picture6.png)
 
 ### 📑 My List
-![My List](root/screenshots/Picture7.png)
+![My List](/screenshots/Picture7.png)
 
 ---
 
