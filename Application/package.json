@@ -1,0 +1,12 @@
+{
+    "name": "application",
+    "scripts": {
+      "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\"",
+      "start-frontend": "cd myflix-frontend && npm run dev",
+      "start-backend": "cd backend && python app.py"
+    },
+    "devDependencies": {
+      "concurrently": "^8.2.0"
+    }
+  }
+  
